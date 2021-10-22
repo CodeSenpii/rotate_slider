@@ -24,7 +24,7 @@ function activateReader(){
       d[counter+1].style.backgroundColor = gold;
       counter ++;
     }
-    } else if(e.which === 38){
+  } else if(e.code === 'KeyU'){
 
       if(counter != 0){
         // remove pagination from line
@@ -35,13 +35,8 @@ function activateReader(){
         // d[counter+1].style.color = "black";
         d[counter-1].style.backgroundColor = gold;
         counter --;
-
-
       }
-
-
-
-    }
+    }// end elif
 
   });
 }
