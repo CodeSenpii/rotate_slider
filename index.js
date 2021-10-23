@@ -1,30 +1,39 @@
 window.addEventListener("load", activateReader);
 
 function activateReader(){
+
+// ------------------------------
   var counter = 0;
-  var page = 0;
-  // var gold = "rgba(218,165,32,0.5)";
+  var page = 0;// track p-tags elements
+   // --------------------------------
   var gold = "gainsboro";
   var d = document.querySelectorAll('p');
 
-  var label_id = {p1:'s2', p2:'s3', p3:'s4', p4:'s5', p5:'s6'};
 
 
-  var span = document.querySelectorAll('span');
+  var label_id = {p1:'s2', p2:'s3', p3:'s4', p4:'s5', p5:'s6', p6:'s1'};
+  var page_upId = {up6:'s5', up5:'s4', up4:'s3', up3:'s2', up2:'s1'};
+
+
+  // var span = document.querySelectorAll('span');
   d[0].style.opacity = 1;
   d[0].style.color = "black";
   d[0].style.backgroundColor = gold;
   d[0].classList.add("prefix", "postfix");
-  document.addEventListener("keydown", function(e){
-    if(d[page].id && page < d.length - 1){
-      var index = Number(page);
-      document.getElementById(label_id[d[page].id]).checked = true;
-      // console.log(label_id[d[page].id]);
-    }
 
+  document.addEventListener("keydown", function(e){
+
+
+    // go to next page
     if (e.code === "Space"){
       if(counter < d.length - 1) {
-      // remove pagination from line
+
+      if(d[page].id && page < d.length - 1){
+
+        document.getElementById(label_id[d[page].id]).checked = true;
+
+      }
+      // insert line pagination
       d[counter].classList.remove("prefix", "postfix");
       d[counter].style.background = "none";
       // add pagination to lines
@@ -39,7 +48,15 @@ function activateReader(){
     }
   } else if(e.code === 'KeyU'){
 
+
       if(counter != 0){
+
+        // go to previous page - turn page back by checking previous box
+        if(page_upId[d[page].classList[0]] != undefined){
+          document.getElementById(page_upId[d[page].classList[0]]).checked = true;
+          // console.log(page_upId[d[page].classList[0]]);
+        }
+
         // remove pagination from line
         d[counter].classList.remove("prefix", "postfix");
         d[counter].style.background = "none";
