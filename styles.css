@@ -3,11 +3,20 @@ body {
   background: #EEE;
   user-select: none;
   font-family: sans-serif;
-  background-image: url("beautiful.jpg");
+  /* background-image: url("beautiful.jpg"); */
+  
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+}
+
+#myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 
