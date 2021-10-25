@@ -11,8 +11,8 @@ function activateReader(){
 
 
 
-  var label_id = {p1:'s2', p2:'s3', p3:'s4', p4:'s5', p5:'s6', p6:'s1'};
-  var page_upId = {up6:'s5', up5:'s4', up4:'s3', up3:'s2', up2:'s1'};
+  var label_id = {p1:'s2', p2:'s3', p3:'s4', p4:'s5', p5:'s6', p6:'s7',p7:'s8', p8:'s9', p9:'s10', p10:'s11', p11:'s1'};
+  var page_upId = {up11:'s10', up10:'s9', up9:'s8', up8:'s7',up7:'s6', up6:'s5', up5:'s4', up4:'s3', up3:'s2', up2:'s1'};
 
 
   // var span = document.querySelectorAll('span');
