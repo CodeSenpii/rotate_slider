@@ -3,23 +3,19 @@ body {
   background: #EEE;
   user-select: none;
   font-family: sans-serif;
-
-
   /* background-image: url("beautiful.jpg"); */
-
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
 }
 
-#myVideo, #myVideo2{
+#myVideo{
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-
 }
 
 
@@ -31,8 +27,8 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
   transform-style: preserve-3d;
-
 }
+
 p{
   margin: calc(1px + 1.2vw);
   opacity: 0.1;
@@ -122,6 +118,7 @@ input[type=radio]:checked {
 #slide1 {
   background: lightcyan;
 
+
     /* background: steelblue; */
 }
 
@@ -168,6 +165,7 @@ input[type=radio]:checked {
   background: coral;
 }
 
+
 .prefix::before{
     content:'❯ ';
     background:inherit;
@@ -181,8 +179,30 @@ input[type=radio]:checked {
     /*display:block;*/
     color:grey;
     opacity: 0.6;
-
 }
+.btn, .keyUp{
+  height: 30px;
+  width: 150px;
+  font-size: 1em;
+  font-weight: bolder;
+  color: grey;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.space-bar{
+  position: absolute;
+  background-color: transparent;
+  bottom: 40px ;
+}
+.go-up{
+  position: absolute;
+  background-color: transparent;
+  bottom:  120px ;
+}
+
+
+
 
 
 /* Slider Functionality */
