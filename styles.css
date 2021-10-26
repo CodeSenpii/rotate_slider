@@ -185,9 +185,10 @@ input[type=radio]:checked {
   width: 150px;
   font-size: 1em;
   font-weight: bolder;
-  color: grey;
+  color: lightgrey;
   background: transparent;
   border-radius: 5px;
+  border-color: lightgrey;
 }
 
 .space-bar{
@@ -200,10 +201,6 @@ input[type=radio]:checked {
   background-color: transparent;
   bottom:  120px ;
 }
-
-
-
-
 
 /* Slider Functionality */
 
