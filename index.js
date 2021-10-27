@@ -24,6 +24,8 @@ function activateReader(){
     d[counter+1].style.color = "black";
     d[counter+1].style.opacity = 1;
     d[counter+1].style.backgroundColor = gold;
+    d[counter+1].style.opacity = 0.7;
+    d[counter+1].style.borderRadius = '5px';
     counter ++;
     page ++;
   }
@@ -42,6 +44,8 @@ function activateReader(){
       d[counter-1].classList.add("prefix", "postfix");
       // d[counter+1].style.color = "black";
       d[counter-1].style.backgroundColor = gold;
+      d[counter-1].style.opacity = 0.7;
+      d[counter-1].style.borderRadius = '5px';
       counter --;
       page --;
     }
@@ -54,7 +58,9 @@ function activateReader(){
   d[0].style.opacity = 1;
   d[0].style.color = "black";
   d[0].style.backgroundColor = gold;
+  d[0].style.opacity = 0.7;
   d[0].classList.add("prefix", "postfix");
+  d[0].style.borderRadius = '5px';
 
   document.addEventListener("keydown", function(e){
 
@@ -72,6 +78,8 @@ function activateReader(){
       d[counter+1].style.color = "black";
       d[counter+1].style.opacity = 1;
       d[counter+1].style.backgroundColor = gold;
+      d[counter+1].style.opacity = 0.7;
+      d[counter+1].style.borderRadius = '5px';
       counter ++;
       page ++;
 
@@ -93,6 +101,8 @@ function activateReader(){
         d[counter-1].classList.add("prefix", "postfix");
         // d[counter+1].style.color = "black";
         d[counter-1].style.backgroundColor = gold;
+        d[counter-1].style.opacity = 0.7;
+        d[counter-1].style.borderRadius = '5px';
         counter --;
         page --;
       }

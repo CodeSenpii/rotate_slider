@@ -18,7 +18,6 @@ body {
   min-height: 100%;
 }
 
-
 #slider {
   position: relative;
   width: 70%;
@@ -61,7 +60,7 @@ span::before{
    -webkit-transition: opacity color  1s ease-out;
    -moz-transition: opacity color  1s ease-out;
    -o-transition: opacity color  1s ease-out;
-   /*transform-origin: bottom center;*/
+
 }
 span:hover::before{
     opacity: 1;
@@ -82,7 +81,6 @@ input[type=radio] {
   cursor: pointer;
 }
 
-
 input[type=radio]:nth-child(11) {
   margin-right: 0px;
 }
@@ -90,9 +88,6 @@ input[type=radio]:nth-child(11) {
 input[type=radio]:checked {
   opacity: 1;
 }
-
-
-
 
 #slider label {
   position: absolute;
@@ -108,8 +103,6 @@ input[type=radio]:checked {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-
-
   align-items: center;
   justify-content: center;
   transition: transform 400ms ease;
@@ -189,22 +182,20 @@ background-size: cover;
   background-image: url("dancer7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
 
 .prefix::before{
     content:'❯ ';
     background:inherit;
     /*display:block;*/
-    color:grey;
+    color:#fff;
     opacity: 0.6;
 }
 .postfix::after{
     content:" ❮";
     background:inherit;
     /*display:block;*/
-    color:grey;
+    color:#fff;
     opacity: 0.6;
 }
 .btn, .keyUp{
@@ -331,5 +322,13 @@ background-size: cover;
   }
   .go-up{
     bottom:  120px ;
+  }
+}
+@media (max-height: 800px){
+  .space-bar{
+    bottom: 10px ;
+  }
+  .go-up{
+    bottom:  60px ;
   }
 }
