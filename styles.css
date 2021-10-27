@@ -166,21 +166,27 @@ background-size: cover;
 #slide8{
   /* background: darksalmon; */
   background-image: url("dancer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide9{
   /* background: magenta; */
-  background-image: url("beautiful.jpg");
+  background-image: url("dancer5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide10{
   /* background: deepskyblue; */
-  background-image: url("beautiful.jpg");
+  background-image: url("dancer6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide11{
   /* background: coral; */
-  background-image: url("igloo.jpg");
+  background-image: url("dancer7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
