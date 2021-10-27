@@ -324,11 +324,11 @@ background-size: cover;
     bottom:  120px ;
   }
 }
-@media (max-height: 1000px){
+@media (max-height: 900px){
   .space-bar{
     bottom: 10px ;
   }
   .go-up{
-    bottom:  60px ;
+    top:  30px ;
   }
 }
