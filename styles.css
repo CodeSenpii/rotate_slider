@@ -21,7 +21,7 @@ body {
 
 #slider {
   position: relative;
-  width: 65%;
+  width: 70%;
   height: 40vw;
   margin: 80px auto;
   font-family: 'Helvetica Neue', sans-serif;
@@ -127,13 +127,13 @@ background-size: cover;
 #slide2 {
   /* background: yellowgreen; */
   /* background:#BBFFFF; */
-  background-image: url("beautiful.jpg");
+  background-image: url("flowerD.jpg");
 }
 
 #slide3 {
   /* background: dodgerblue; */
 /* background: #BFEFFF; */
-background-image: url("dancer3.png");
+background-image: url("flowerD2.png");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -141,17 +141,21 @@ background-size: cover;
 #slide4 {
   /* background: slateblue; */
   /* background: #B9D3EE; */
-  background-image: url("beautiful.jpg");
+  background-image: url("flowerD3.jpg");
 }
 
 #slide5 {
   /* background: violet; */
-  background-image: url("beautiful.jpg");
+  background-image: url("igloo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide6{
   /* background: darkcyan; */
-  background-image: url("beautiful.jpg");
+  background-image: url("ballroom2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #slide7{
@@ -177,6 +181,8 @@ background-size: cover;
 #slide11{
   /* background: coral; */
   background-image: url("igloo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
