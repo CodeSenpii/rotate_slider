@@ -116,53 +116,66 @@ input[type=radio]:checked {
 }
 
 #slide1 {
-  background: lightcyan;
-
+  /* background: lightcyan; */
+background-image: url("beautiful.jpg");
 
     /* background: steelblue; */
 }
 
 #slide2 {
-  background: yellowgreen;
+  /* background: yellowgreen; */
   /* background:#BBFFFF; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide3 {
-  background: dodgerblue;
+  /* background: dodgerblue; */
 /* background: #BFEFFF; */
+background-image: url("dancer3.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #slide4 {
-  background: slateblue;
+  /* background: slateblue; */
   /* background: #B9D3EE; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide5 {
-  background: violet;
+  /* background: violet; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide6{
-  background: darkcyan;
+  /* background: darkcyan; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide7{
-  background: lavender;
+  /* background: lavender; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide8{
-  background: darksalmon;
+  /* background: darksalmon; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide9{
-  background: magenta;
+  /* background: magenta; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide10{
-  background: deepskyblue;
+  /* background: deepskyblue; */
+  background-image: url("beautiful.jpg");
 }
 
 #slide11{
-  background: coral;
+  /* background: coral; */
+  background-image: url("igloo.jpg");
+
 }
 
 
