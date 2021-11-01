@@ -3,7 +3,7 @@ body {
   background: #EEE;
   user-select: none;
   font-family: sans-serif;
-  /* background-image: url("beautiful.jpg"); */
+  background-image: url("beautiful.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -189,15 +189,15 @@ background-size: cover;
     content:'❯ ';
     background:inherit;
     /*display:block;*/
-    color:#fff;
-    opacity: 0.6;
+    color:blue;
+    opacity: 0.9;
 }
 .postfix::after{
     content:" ❮";
     background:inherit;
     /*display:block;*/
-    color:#fff;
-    opacity: 0.6;
+    color:blue;
+    opacity: 0.9;
 }
 .btn, .keyUp{
   height: 30px;
